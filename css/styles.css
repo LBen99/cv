@@ -1,0 +1,165 @@
+body {
+  /*background-color: #25272A;*/
+  background-image: url(images/backgroundvert.jpg);
+  background-size: 200%;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #E1E2E2;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  display: inline-block;
+}
+
+h2 {
+  color: #FB8122;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #F49E5B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #2B2E31;
+  border-style: dotted hidden hidden hidden;
+  border-width: 0.3125rem;
+  width: 5%;
+}
+
+.main-text {
+  color: #E1E2E2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.glass-panel {
+  color: #ffffff;
+  margin: 0 auto 2.5rem auto;
+  background-color: rgba(37, 39, 42, 0.06);
+  border: 0.16rem solid rgba(255, 255, 255, 0.1);
+  width: 60%;
+  height: 80%;
+  border-radius: 1rem;
+  padding: 2rem;
+  backdrop-filter: blur(0.8rem);
+}
+
+.glass-button {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border: 0;
+  text-decoration: none;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.16rem solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1.8rem);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: rgba(251, 129, 34, 0.8);
+  font-size: 1rem;
+  letter-spacing: 0.125rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 10%;
+  height: 10%;
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.animated-sticker {
+  height: 50%;
+  width: 50%;
+
+}
+
+.top-container {
+  /*background-color: #2B2E31;*/
+}
+
+.giphylink {
+  color: rgba(255, 255, 255, 0)
+}
+
+.topcloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+.middle-container {
+  /*-- background-color: #25272A; --*/
+}
+
+.profile-img {
+  margin-top: 1.875rem;
+  width: 10%;
+}
+
+.skill-row {
+  margin: 6.25rem auto 2.5rem auto;
+  width: 50%;
+  text-align: left;
+}
+
+.html5-img {
+  width: 13%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.css3-img {
+  width: 13%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+.bottom-container {
+  align-content: center;
+}
+
+.link-container {
+  /*background-color: #25272A;*/
+  width: 10%;
+  margin: 0 auto;
+}
+
+.hr1 {
+  margin-top: 2.5rem;
+}
+
+.hr2 {
+  display: inline-block;
+}
+
+.footer-link {
+  color: #F49E5B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-text {
+  color: #E1E2E2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+}
